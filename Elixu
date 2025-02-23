@@ -1,7 +1,6 @@
--- discord.gg/25ms
 
 
-shared.LoaderTitle = "Đăng Ký Kênh Rubu Tv";
+shared.LoaderTitle = ">w<";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -105,7 +104,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: RuBuTV",
+    Text = "Blox Fruits",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -313,7 +312,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "RubuTV",
+    Title = "Elixu Hub | Việt",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Amethyst",
@@ -2676,13 +2675,6 @@ end
 if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn") then
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
-v16.Home:AddButton({
-    Title = "Discord",
-    Description = "Giao Lưu",
-    Callback = function()
-        setclipboard("https://discord.gg/25ms");
-    end
-});
 _G.FastAttackStrix_Mode = "Super Fast Attack";
 spawn(function()
     while wait() do
